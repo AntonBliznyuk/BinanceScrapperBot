@@ -1,12 +1,12 @@
 ### Crypto Bot
 #### Docker-compose 
 - `docker-compose build` сборка образа
-- `docker-compose up` поднять сборку
-- `docker-compose down -v --remove-orphans` потушить контейнеры
+- `docker-compose up` включить сборку
+- `docker-compose down -v --remove-orphans` выключить контейнеры
 
 #### Docker
 - `docker ps` список контейнеров
-- `docker exec -it cryptobot_scrapper_1 /bin/bash` подрубится к контейнеру
+- `docker exec -it cryptobot_scrapper_1 /bin/bash` подключиться к контейнеру
 - `docker volume prune` очистить тома
 - `docker system prune -a` очистить системный кэш
 
