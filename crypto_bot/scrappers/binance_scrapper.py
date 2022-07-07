@@ -7,7 +7,7 @@ from crypto_bot.db import BinanceLab
 
 
 class BinanceScrapper:
-    """Класс для скрапига BinanceLab"""
+    """Класс для скрапинга BinanceLab"""
 
     link = 'https://labs.binance.com/'
 
@@ -21,7 +21,7 @@ class BinanceScrapper:
                 return soup
             else:
                 print('Response code is different than 200. Response code: ', response.status_code)
-        except Exception as e:  # Dont forget to add command whcih will send error to the telegram bot
+        except Exception as e:
             print('error occured: ', e)
 
     def scrap(self, conn) -> Optional[List[str]]:

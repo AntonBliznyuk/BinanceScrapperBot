@@ -7,9 +7,9 @@
 #### Docker
 - `docker ps` список контейнеров
 - `docker exec -it cryptobot_scrapper_1 /bin/bash` подрубится к контейнеру
-- `docker volume prune` очистить волюмы
+- `docker volume prune` очистить тома
 - `docker system prune -a` очистить системный кэш
 
 #### Git
 - `git config -l` отобразить все конфигурации git
-- `git remote set-url origin https://github.com/NoMalicious/CryptoBot.git` сменить репозиторий
+- `git remote set-url origin https://github.com/AntonBliznyuk/BinanceScrapperBot.git` сменить репозиторий
