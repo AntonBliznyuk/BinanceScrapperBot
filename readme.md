@@ -12,4 +12,4 @@
 
 #### Git
 - `git config -l` отобразить все конфигурации git
-- `git remote set-url origin https://github.com/NoMalicious/CryptoBot.git` сменить репозиторий
+- `git remote set-url origin https://github.com/AntonBliznyuk/BinanceScrapperBot.git` сменить репозиторий
