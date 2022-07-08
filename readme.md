@@ -1,4 +1,4 @@
-### Crypto Bot
+### Binance Scrapper Bot
 #### Docker-compose 
 - `docker-compose build` сборка образа
 - `docker-compose up` включить сборку
