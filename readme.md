@@ -6,7 +6,7 @@
 
 #### Docker
 - `docker ps` список контейнеров
-- `docker exec -it cryptobot_scrapper_1 /bin/bash` подключиться к контейнеру
+- `docker exec -it binancescrapperbot_scrapper_1 /bin/bash` подключиться к контейнеру
 - `docker volume prune` очистить тома
 - `docker system prune -a` очистить системный кэш
 
