@@ -7,7 +7,6 @@ from crypto_bot.db import BinanceLab
 
 
 class BinanceScrapper:
-    """Класс для скрапинга BinanceLab"""
 
     link = 'https://labs.binance.com/'
 
@@ -25,7 +24,6 @@ class BinanceScrapper:
             print('error occured: ', e)
 
     def scrap(self, conn) -> Optional[List[str]]:
-        """Распарсить и вернуть мессаджи"""
         soup = self.get_soup(self.link)
         parsed_projects = []
         if soup:
